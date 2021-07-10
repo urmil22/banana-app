@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+:root {
+    --primary-color: #fce029;
+}
+
+#txt-input::-webkit-input-placeholder{
+    height: 25px;line-height: 50px;
+    }
+
+.navigation {
+    background-color:#949699;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    ;
+    color: white;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-top-left-radius:1rem ;
+    border-bottom-right-radius: 1rem;
+}
+
+.image-center {
+    display: block;
+    width: 5rem;
+    margin-left:auto ;
+    margin-right: auto;
+    padding: 1rem 2rem;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+textarea {
+    display: block;
+    margin: 1rem;
+    width: 55rem;
+    height: 10rem;
+    text-align: center;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    align-content: center;
+    border: 2px solid black;
+}
+
+#output {
+    border: 2px solid black;
+    display: block;
+    width: 55rem;
+    height: 10rem;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    background-color: white;
+    align-content: center;
+    text-align: center;
+}
+
+
+#btn-translate {
+    font-size: larger;
+    justify-content:center;
+    text-align: center;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    width: 15%;
+    
+}
+
+.center-align {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.center-button {
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.footer {
+    background-color:#949699 ;
+    padding: 1rem 1rem;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+   border-bottom-left-radius:1rem ;
+   border-top-right-radius: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    textarea {
+      width: 15rem;
+      padding: 1rem 2rem;
+      
+    }
+
+    #btn-translate {
+        width: 10rem;
+    }
+    
+    #output {
+    width: 15rem;
+    padding: 1rem 2rem;
+    }
+  }
+  

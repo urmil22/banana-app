@@ -6,35 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana</title>
-    <style>
-        textarea {
-            width: 90%;
-            padding: 1rem;
-            margin: 1rem;
-            height: 15vh;
-            display: block;
-        }
+    <link rel="stylesheet" href="style.css" />
 
-        #output {
-                 display: block;
-                 height: 15vh;
-                 width: 90%;
-                 border: 1px solid black;
-                 padding: 1rem;
-                 margin: 1rem;
-        }
-    </style>
 </head>
 
 <body>
-    <h1>Talk Bananaaa</h1>
-    <textarea id="txt-input"
-    placeholder="Put your sentence in English"
-    ></textarea>
-    <button id="btn-translate">Translate</button>
+    <nav class="navigation container">
+        <div class="nav">Banana Translator</div>
+    </nav>
 
-    <div style="font-size:larger ">The output will come here </div>
-    <div id="output"></div>
+    <img src="images/minions.png" class="image-center" style="width: 200px;height: 300px;">
+
+
+    <textarea class="center-align" id="txt-input" placeholder="Put your sentence in English to convert it into 
+    minon language which is Minionese"></textarea>
+
+    <div class="center-button">
+        <button id="btn-translate">Translate</button>
+    </div>
+
+    <div class="center-align" id="output"></div>
+     <footer class="footer">
+         <div>Made with ❤️ by Urmil Bhavsar</div>
+     </footer>
     <script src="app.js" type="text/javascript"></script>
 </body>
 
